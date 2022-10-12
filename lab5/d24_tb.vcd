@@ -1,0 +1,44 @@
+$date
+	Wed Oct 12 10:10:27 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module d24_tb $end
+$var wire 4 ! Y [3:0] $end
+$var reg 1 " En $end
+$var reg 2 # W [1:0] $end
+$scope module d24 $end
+$var wire 1 " En $end
+$var wire 2 $ W [1:0] $end
+$var reg 4 % Y [0:3] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 %
+b0 $
+b0 #
+0"
+b0 !
+$end
+#20
+1"
+#40
+b1 !
+b1 %
+b1 #
+b1 $
+#60
+b11 !
+b11 %
+b10 #
+b10 $
+#80
+b11 #
+b11 $
+#100
